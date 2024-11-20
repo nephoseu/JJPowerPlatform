@@ -9,7 +9,7 @@ lab:
 
 
 
-To create an approval workflow, add the Approvals - Start and wait for an approval action to any flow. This allows your flow to manage document or process approvals. For instance, you can approve invoices, work orders, sales quotations, vacation requests, overtime, or travel plans.
+To create an approval workflow, add the Approvals - Start and wait for an approval action to any flow. This allows your flow to manage document or process approvals. For instance, you can approve invoices, work orders, sales quotations, vacation requests, overtime, or travel plans. 
 
 Approvers can respond to requests from their email inbox, the approvals center in [Power Automate](https://make.powerautomate.com), or the Power Automate app.
 
