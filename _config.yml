@@ -1,0 +1,15 @@
+remote_theme: nephoseu/JJ-Theme
+exclude:
+  - readme.md
+  - .github/
+header_pages:
+  - index.html
+author: Nephos
+plugins:
+  - jekyll-sitemap
+  - jekyll-mentions
+  - jemoji
+markdown: kramdown
+kramdown:
+   syntax_highlighter_opts:
+      disable : true
