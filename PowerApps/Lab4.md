@@ -14,7 +14,7 @@ In this lab, you'll create an app to view, edit, add, and delete list items. Cus
 
 1. Create a list with columns and list items. In this scenario, we've used a list with the following columns and list items:
 
-![List structure.](media/scenarios-sharepoint-form-from-scratch/sharepoint-list.png "List structure")
+![List structure.](img/sharepoint-list.png "List structure")
 
 ## Task 2 – Create a blank canvas app
 
