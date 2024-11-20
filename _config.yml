@@ -1,4 +1,4 @@
-remote_theme: nephoseu/LG-Theme
+remote_theme: NephosSI/LG-Theme
 exclude:
   - readme.md
   - .github/
