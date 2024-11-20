@@ -1,16 +1,29 @@
 # Power Automate
 
 Course is based on 
-https://learn.microsoft.com/en-gb/training/paths/robotic-process-automation-online-workshop/
-https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-blank
-https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/data-platform-create-app-scratch
-https://www.pluralsight.com/resources/blog/ai-and-data/how-to-use-copilot-in-power-apps
-https://techcommunity.microsoft.com/t5/educator-developer-blog/get-started-with-copilot-on-microsoft-power-apps/ba-p/3897524
-https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint/scenarios-sharepoint-form-from-scratch
+* https://learn.microsoft.com/en-gb/training/paths/robotic-process-automation-online-workshop/
 
-https://rpabotsworld.com/ai-builder-in-power-automate/
-https://learn.microsoft.com/en-us/training/modules/use-copilot-power-automate/exercise
+* https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/get-started-create-from-blank
 
+* https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/data-platform-create-app-scratch
+
+* https://www.pluralsight.com/resources/blog/ai-and-data/how-to-use-copilot-in-power-apps
+
+* https://techcommunity.microsoft.com/t5/educator-developer-blog/get-started-with-copilot-on-microsoft-power-apps/ba-p/3897524
+
+* https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/sharepoint/scenarios-sharepoint-form-from-scratch
+
+* https://learn.microsoft.com/en-us/power-automate/modern-approvals
+
+* https://learn.microsoft.com/en-us/power-automate/email-triggers?tabs=classic-designer
+
+* https://learn.microsoft.com/en-us/power-automate/convert-time-zone
+
+* https://rpabotsworld.com/ai-builder-in-power-automate/
+
+* https://learn.microsoft.com/en-us/training/modules/use-copilot-power-automate/exercise
+
+* https://learn.microsoft.com/en-us/power-apps/maker/canvas-apps/how-to/trigger-flow
 
 
 With the following limitations:
