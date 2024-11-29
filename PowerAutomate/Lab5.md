@@ -40,7 +40,7 @@ In this task, you import a mentoring management solution. The solution includes 
     
 10.  Select **Publish all customizations** and then wait for the publishing to complete.
     
-    ![Screenshot showing the Publish all customizations button.](img/publish-all-customizations.png)
+     ![Screenshot showing the Publish all customizations button.](img/publish-all-customizations.png)
     
 11.  Don't navigate away from this page.
     
