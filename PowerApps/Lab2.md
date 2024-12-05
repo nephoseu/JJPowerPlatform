@@ -39,7 +39,7 @@ To create an app from scratch that uses data from Dataverse, the first step is t
     
 2.  In the left navigation bar, select **BrowseGallery1**, and then set the value of the **Items** property to this formula:
     
-    `SortByColumns(Search(Accounts, TextSearchBox1.Text, "name"), "name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))`
+    `SortByColumns(Search(Accounts, TextSearchBox1.Text, 'Account Name'), "name", If(SortDescending1, SortOrder.Descending, SortOrder.Ascending))`
     
     This formula specifies that:
     
