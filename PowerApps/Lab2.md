@@ -84,11 +84,7 @@ To create an app from scratch that uses data from Dataverse, the first step is t
     *   **Number of Employees**
     *   **Annual Revenue**
     
-    Note
-    
-    Outside of this scenario, you can create a custom field by selecting **New field**, providing the required information, and then selecting **Done**.
-      
-    ![Select and add a column.](img/choose-or-add-fields.png "Select and add a column")
+   
     
 5.  Select **Add**.
     
