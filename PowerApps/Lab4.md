@@ -166,30 +166,29 @@ In this lab, you'll create an app to view, edit, add, and delete list items. Cus
     ![Save button.](img/save-button.png "Save button")
     
 10.  Set the **OnSelect** property of the **Save** button to the following formula:
-    
-    
-    ```
+```
     SubmitForm(Form1);
     Set(TextSelected,0)
-    ```
+```
     
-    ![OnSelect property for Save button.](img/onselect-save-button.png "OnSelect property for Save button")
+![OnSelect property for Save button.](img/onselect-save-button.png "OnSelect property for Save button")
     
-    The formula contains following functions:
+The formula contains following functions:
     
-    *   **SubmitForm()** – Used in this formula to submit the edit form and save the values to list.
-    *   **Set()** – Resets the _TextSelected_ variable back to _o_ so that a new item can be selected from the list box.
+**SubmitForm()** – Used in this formula to submit the edit form and save the values to list.
+**Set()** – Resets the _TextSelected_ variable back to _o_ so that a new item can be selected from the list box.
+
 11.  Insert **Text label** control.
     
-    ![Text label.](img/add-text-label.png "Text label")
+![Text label.](img/add-text-label.png "Text label")
     
 12.  Update the **Text** property for the **Text label** control added in the previous step to _To edit value(s) for an item, select from the table, or search._
     
-    ![Label text updated.](img/label-text.png "Label text updated")
+![Label text updated.](img/label-text.png "Label text updated")
     
 13.  Rearrange the controls on the screen to order the edit controls.
     
-    ![Rearrange edit controls.](img/rearrange-controls-edit.png "Rearrange edit controls")
+![Rearrange edit controls.](img/rearrange-controls-edit.png "Rearrange edit controls")
     
 
 
