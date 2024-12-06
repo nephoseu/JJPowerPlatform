@@ -148,30 +148,9 @@ You need a set of documents you are going to work on. Download the documents fro
     
 ![Screenshot showing the Publish button.](img/6-31.png)
     
-28.  Now you have an AI Builder model trained and published. Next, you use this AI Builder model that you trained in your automation. From the menu to the left of the screen, select **Solutions** and then open **Invoice processing solution**.
-    
-![Screenshot showing the Invoice processing solution selected from the list.](img/6-32.png)
-    
-29.  Select **Add existing** and then select **AI Model**.
-    
-![Screenshot showing the Add existing and AI Model options highlighted.](img/6-33.png)
-    
-30.  Select the model that you created and then select **Add**.
-    
-![Screenshot of the Add existing AI models dialog, showing the Add button.](img/6-34.png)
-    
-31.  Open **Use Outlook email to trigger Desktop flow**.
-    
-![Screenshot showing the cloud flow called Use Outlook email to trigger Desktop flow.](img/6-35.png)
-    
-32.  Select the **Edit** button from the top of the screen.
-    
-![Screenshot showing the edit button at the top of the screen.](img/6-36.png)
-    
-33.  Select the **Run a flow built with Power Automate for desktop action** by selecting the action card and then select the ellipsis to select **Delete**.
-    
-![Screenshot showing how to delete an action trigger card.](img/6-37.png)
-    
+28.  Now you have an AI Builder model trained and published. Next, you use this AI Builder model that you trained in your automation.
+29. Create a new flow with tirgger **When email arrives **.
+        
 34.  Select **+** to add a new step to the flow. After selecting the plus sign, select **Add an Action** located under the **+** that was selected.
     
 ![Screenshot showing the New step button in the flow.](img/6-38.png)
