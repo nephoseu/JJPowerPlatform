@@ -31,7 +31,8 @@ Check the license for Power Automate
 ==================================================
 
 Your next task is to check the Power Automate license.
-
+1. Go to [https://make.powerapps.com/](https://make.powerapps.com/) and sign in with your account.
+If you don't get any popups about getting a trial, you have your license active. However, if prompted to do so, feel free to activate a trial license which you will use throughout the lab.
 1.  Go to [https://powerautomate.microsoft.com/](https://powerautomate.microsoft.com/?azure-portal=true) and sign in with the account that you're using for the labs.
 If you don't get any popups about getting a trial, you have your license active. However, if prompted to do so, feel free to activate a trial license which you will use throughout the lab.
     
