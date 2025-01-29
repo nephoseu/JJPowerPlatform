@@ -58,62 +58,58 @@ If after creating the environment, you get an error message, that means that you
 
 ## Task 2 - Engage Copilot
 
+To show you how Copilot works, let's create an app to track housekeeping tasks for a hotel.
+
+1. Click on Home or go to [Power Apps](https://make.powerapps.com).
+
+1. In the text box, type *hotel housekeeping* and press Enter.
+
+   :::image type="content" source="img/create-app-using-ai-1.png" alt-text="Screenshot of the Power Apps home page, with the Copilot input text box highlighted." lightbox="img/artificial-intelligence/create-app-using-ai-1.png":::
+
+Copilot creates one or more Dataverse tables with data that includes typical hotel housekeeping tasks.
+
+> [!IMPORTANT]
+> If you don't have the right permissions and access to Dataverse in the environment you're working in, an alert asks you to create the app in your own environment. Confirm that the table and app can be created in your environment to proceed. If you don't have a personal developer environment, a new one is created for you automatically.
+
+## Review the table
+
+Copilot generates tables and relationships based on your description. Review them and make any changes you need to before you go on to create your app.
+
+### Review the tables for your app
+
+Copilot shows you the tables and relationships that it generated based on your description.
+
+:::image type="content" source="img/data-workspace-copilot.png" alt-text="Screenshot of Dataverse tables and relationships for a hotel housekeeping app, with numbered annotations.":::
+
+Legend:
+
+1. **Edit**: Edit or create more tables in your canvas.
+
+1. **Copilot text box**: [Ask Copilot to modify the table](#use-copilot-to-make-changes) or create more tables for you.
+
+1. **View prompt**: View examples of things that you can ask Copilot to do.
+
+1. **Save and open app**: Save your tables and create your app. To start over, select **Back**.
 
 
-1. While still on the same page in the text boxt, enter 
+## Use Copilot to make changes
 
+If you want to change something, enter in the Copilot panel a brief description of the change you want to make. Copilot does it for you.
+
+For example, ask Copilot to add columns to track cleaning start and end time.
+
+1. In the Copilot text box, enter:
 ```
-Leave Management System
-```
-
-and wait for it to load
-
-![AI Copilot.PNG](https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zODk3NTI0LTUwMDE2N2kzMTU2NTcwMDQwMjY1OENB?image-dimensions=750x750&revision=31)
-
-![Copilot Dataverse Table.PNG](https://techcommunity.microsoft.com/t5/s/gxcuf89792/images/bS0zODk3NTI0LTUwMDE2OGlBMjEzMEYzNjA2NDg2RDlE?image-dimensions=750x750&revision=31)
-
-  
-Copilot creates a Leave Management System Dataverse Table with columns and a few populated data in the columns. 
-
-Column that has been created 
-
-ID
-
-Name 
-
-Leave Type 
-
-Start Date 
-
-End Date 
-
-Status
-
-Reason 
-
-Comment
-
-![CopilotTable.png](img/CopilotTable.png)
-
-Let’s go ahead and create a new column by asking Copilot
-
-
-2. On the chat at the right hand side, describe the column you want added to the Dataverse Table
-
-Type in the following:
-
-```
-Add the Performance Manager Column to the Table
+Add columns to track start and end time
 ```
 
-Next, click on the icon to send the prompt to Copilot, and the new column, Performance Manager has been created.   
-  
+Copilot adds two new columns called **Start Time** and **End Time**.
 
-![PerformColumn.png](img/PerformColumn.png)
+1. Continue editing the table as needed. For example, add room status, change room types, or set a priority level for each room.
 
-3. Click on Create app, and after some time, Copilot will create a responsive Canvas apps application that has a Form and Gallery on the same screen.
+1. When you're ready to create your app, select **Save and open app**.
 
-4. Explore the app a bit, and enter the new data, modify the already existing data and even delete the data. 
+1. Explore the app a bit, and enter the new data, modify the already existing data and even delete the data. 
 -------
 ## Congratulations!
 
