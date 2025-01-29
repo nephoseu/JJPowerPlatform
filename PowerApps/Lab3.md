@@ -64,7 +64,7 @@ To show you how Copilot works, let's create an app to track housekeeping tasks f
 
 1. In the text box, type *hotel housekeeping* and press Enter.
 
-   :::image type="content" source="img/create-app-using-ai-1.png" alt-text="Screenshot of the Power Apps home page, with the Copilot input text box highlighted." lightbox="img/artificial-intelligence/create-app-using-ai-1.png":::
+![Screenshot of the Power Apps home page, with the Copilot input text box highlighted.](img/create-app-using-ai-1.png")
 
 Copilot creates one or more Dataverse tables with data that includes typical hotel housekeeping tasks.
 
@@ -79,7 +79,7 @@ Copilot generates tables and relationships based on your description. Review the
 
 Copilot shows you the tables and relationships that it generated based on your description.
 
-:::image type="content" source="img/data-workspace-copilot.png" alt-text="Screenshot of Dataverse tables and relationships for a hotel housekeeping app, with numbered annotations.":::
+![Screenshot of Dataverse tables and relationships for a hotel housekeeping app, with numbered annotations.](img/data-workspace-copilot.png)
 
 Legend:
 
