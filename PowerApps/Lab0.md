@@ -15,8 +15,6 @@ The requirements for the 2 day workshop on Power Apps and Power Automate labs ar
 
 *   Microsoft Power Automate Premium license
 
-*   AI Builder Trial license (in Power Automate)
-
 *   M365 Copilot license
     
 *   Microsoft Exchange mailbox
