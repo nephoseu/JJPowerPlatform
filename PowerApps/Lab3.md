@@ -62,7 +62,11 @@ To show you how Copilot works, let's create an app to track housekeeping tasks f
 
 1. Click on Home or go to [Power Apps](https://make.powerapps.com).
 
-1. In the text box, type *hotel housekeeping* and press Enter.
+1. In the text box, type:
+```
+hotel housekeeping
+```
+and press Enter.
 
 ![Screenshot of the Power Apps home page, with the Copilot input text box highlighted.](img/create-app-using-ai-1.png)
 
