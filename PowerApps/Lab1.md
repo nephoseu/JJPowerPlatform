@@ -34,9 +34,8 @@ To follow the steps in this tutorial exactly, first create an Excel file using t
 3.  Save the file under the name **eventsignup.xlsx**, close it, and then upload it to a cloud storage account, such as OneDrive.
     
 
-<mark>:information_source:**Note**</mark>Important
-
-Whenever you want to use your own Excel file, remember that the data in the Excel file must be formatted as a table. 
+> [!IMPORTANT]
+> Whenever you want to use your own Excel file, remember that the data in the Excel file must be formatted as a table. 
 
 
 
