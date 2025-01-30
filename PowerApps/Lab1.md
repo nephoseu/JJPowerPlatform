@@ -94,7 +94,7 @@ In PowerApps portal [PowerApps portal](https://make.powerapps.com/), on the left
         Search(
             Schedule,
             TextSearchBox1.Text,
-            "Volunteer"
+            Volunteer
         ),
         "Volunteer",
         If(
