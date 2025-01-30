@@ -151,29 +151,29 @@ In this task, you rename the steps and edit the flow that Copilot created for yo
     
 9.  Find/select **Mentors** for **Table Name**.
     
-10.  Select the **Show all** button next to _Advanced parameters_.
+10. Select the **Show all** button next to _Advanced parameters_.
     
-11.  For **Filter Rows** input **contoso\_available eq true**.
+11. For **Filter Rows** input **contoso\_available eq true**.
     
     ![Screenshot showing the Show all button.](img/show-all.png)
     
-12.  For **Row Count** enter **1**.
+12. For **Row Count** enter **1**.
     
-13.  Select the condition below the List members action.
+13. Select the condition below the List members action.
     
-14.  Rename the condition to **Check for matching mentor**.
+14. Rename the condition to **Check for matching mentor**.
     
-15.  Select the left **Choose a value** field and then select the dynamic content icon.
+15. Select the left **Choose a value** field and then select the dynamic content icon.
     
-16.  Select the **Subject** under the **Get mentoring request** action.
+16. Select the **Subject** under the **Get mentoring request** action.
     
     ![Screenshot showing the selected subject.](img/subject.png)
     
-17.  Select **Is equal to** or **Is not equal to**, depending on which side of the approval that Copilot placed the approval step.
+17. Select **Is equal to** or **Is not equal to**, depending on which side of the approval that Copilot placed the approval step.
     
-18.  Select the right **Choose a value** field and then select the dynamic content icon.
+18. Select the right **Choose a value** field and then select the dynamic content icon.
     
-19.  Select the **Subject** under the **List mentors** action.
+19. Select the **Subject** under the **List mentors** action.
     
     ![Screenshot showing that the selected subject is not equal to.](img/equal.png)
     
@@ -181,117 +181,117 @@ In this task, you rename the steps and edit the flow that Copilot created for yo
     
     ![Screenshot showing the For each control.](img/for-each-control.png)
     
-20.  Select the **Send an email** action inside the branch of the **Check for matching mentor** condition that doesn't have the approval. If the **Send an email** step is missing, you can add one in!
+20. Select the **Send an email** action inside the branch of the **Check for matching mentor** condition that doesn't have the approval. If the **Send an email** step is missing, you can add one in!
     
-21.  Review the email body and then rename it to **Send no match email**. Remove any **To** value.
+21. Review the email body and then rename it to **Send no match email**. Remove any **To** value.
     
-22.  Select the **To** input field, then select **Enter custom value**, then select the dynamic content icon.
+22. Select the **To** input field, then select **Enter custom value**, then select the dynamic content icon.
     
-23.  Select **Requested By Email** of the **Get mentoring request** step from the Dynamic content pane.
+23. Select **Requested By Email** of the **Get mentoring request** step from the Dynamic content pane.
     
     ![Screenshot of the To field value.](img/to-field.png)
     
     For the email subject, input "No mentoring match found." For the email body, input "Sorry, there is no mentor available currently."
     
-24.  Select the **Start and wait for an approval** step.
+24. Select the **Start and wait for an approval** step.
     
-25.  Change the **Approval Type** to **Approve/Reject - First to respond**.
+25. Change the **Approval Type** to **Approve/Reject - First to respond**.
     
-26.  Enter **Mentoring request** in the **Title** field.
+26. Enter **Mentoring request** in the **Title** field.
     
-27.  Select the **Assign To** field and then select the dynamic content icon.
+27. Select the **Assign To** field and then select the dynamic content icon.
     
-28.  Select **Requested By Email** of the **Get mentoring request** step from the **Get mentoring request** action. Usually, this request goes to the person who manages mentoring requests, but to make testing easier, you use the requester's email for this exercise.
+28. Select **Requested By Email** of the **Get mentoring request** step from the **Get mentoring request** action. Usually, this request goes to the person who manages mentoring requests, but to make testing easier, you use the requester's email for this exercise.
     
     ![Screenshot showing the Requested By Email value.](img/requested-by-email.png)
     
-29.  Enter **Mentoring was requested for**, followed by a space, in the **Details** field and then select the dynamic content icon.
+29. Enter **Mentoring was requested for**, followed by a space, in the **Details** field and then select the dynamic content icon.
     
-30.  Select **Subject** from the **Get mentoring request** step.
+30. Select **Subject** from the **Get mentoring request** step.
     
-31.  Enter the word **on** in front of the step and then select the dynamic content icon again. Be sure to add spaces between words/inputs.
+31. Enter the word **on** in front of the step and then select the dynamic content icon again. Be sure to add spaces between words/inputs.
     
-32.  Select **Days of the Week** from the **Get mentoring request** action.
+32. Select **Days of the Week** from the **Get mentoring request** action.
     
-33.  Enter the words **in the** in front of **Days of the Week** and then select the dynamic content icon once more.
+33. Enter the words **in the** in front of **Days of the Week** and then select the dynamic content icon once more.
     
-34.  Select **Period of the Day** from the **Get mentoring request action**.
+34. Select **Period of the Day** from the **Get mentoring request action**.
     
     The **Details** should resemble the following image.
     
     ![Screenshot showing the Details value.](img/details.png)
     
-35.  Select the condition below the approval.
+35. Select the condition below the approval.
     
-36.  Rename the condition to **Check if mentoring request is approved**.
+36. Rename the condition to **Check if mentoring request is approved**.
     
-37.  Select the left **Choose a value** field and then select the dynamic content icon.
+37. Select the left **Choose a value** field and then select the dynamic content icon.
     
-38.  Select **Outcome** from the Dynamic content pane.
+38. Select **Outcome** from the Dynamic content pane.
     
-39.  Select **is equal to**.
+39. Select **is equal to**.
     
-40.  Enter **Approve** to the right of the comparison dropdown.
+40. Enter **Approve** to the right of the comparison dropdown.
     
     ![Screenshot showing the condition values.](img/condition-parameters.png)
     
-41.  Select the **Update a row** step in the **True** branch of the **Check if mentoring request is approved** condition.
+41. Select the **Update a row** step in the **True** branch of the **Check if mentoring request is approved** condition.
     
-42.  Rename the step to **Update for approved**.
+42. Rename the step to **Update for approved**.
     
-43.  Select **Mentoring requests** for **Table Name** and then remove any value in the **Row ID** field.
+43. Select **Mentoring requests** for **Table Name** and then remove any value in the **Row ID** field.
     
-44.  With your cursor in the **Row ID** field, select the dynamic content icon.
+44. With your cursor in the **Row ID** field, select the dynamic content icon.
     
-45.  Find/select **Mentoring Request** from the Dynamic content pane.
+45. Find/select **Mentoring Request** from the Dynamic content pane.
     
-46.  Scroll down and select the **Show all** button.
+46. Scroll down and select the **Show all** button.
     
-47.  Select **Approved** for **Approval Status**.
+47. Select **Approved** for **Approval Status**.
     
-48.  Select **Mentor**. Input **contoso\_mentors()** and select inside the parentheses, then select the dynamic content icon.
+48. Select **Mentor**. Input **contoso\_mentors()** and select inside the parentheses, then select the dynamic content icon.
     
     ![Screenshot showing the Mentor field with contoso_mentors() entered.](img/insert.png)
     
-49.  Select **Mentor** from under the **List mentors** step.
+49. Select **Mentor** from under the **List mentors** step.
     
-50.  Select the **Update a row** step in the **False** branch of the **Check if mentoring request is approved** condition.
+50. Select the **Update a row** step in the **False** branch of the **Check if mentoring request is approved** condition.
     
-51.  Rename the step to **Update for rejected**.
+51. Rename the step to **Update for rejected**.
     
-52.  Find/select **Mentoring requests** for **Table Name** and then remove any value in the **Row ID** field.
+52. Find/select **Mentoring requests** for **Table Name** and then remove any value in the **Row ID** field.
     
-53.  Select the **Row ID** field and then select the dynamic content icon.
+53. Select the **Row ID** field and then select the dynamic content icon.
     
-54.  Select **Mentoring Request** from the Dynamic content pane.
+54. Select **Mentoring Request** from the Dynamic content pane.
     
-55.  Scroll down and select the **Show all** button.
+55. Scroll down and select the **Show all** button.
     
-56.  Under **Approval Status** select _Rejected_.
+56. Under **Approval Status** select _Rejected_.
     
-57.  Select the **Send an email** step in the **True** branch of the **Check if mentoring request is approved** condition. If Copilot didn't include this step, go ahead and add it under the _Update a row_ step.
+57. Select the **Send an email** step in the **True** branch of the **Check if mentoring request is approved** condition. If Copilot didn't include this step, go ahead and add it under the _Update a row_ step.
     
-58.  Rename the step to **Send approved email** and then remove any value from the **To** field.
+58. Rename the step to **Send approved email** and then remove any value from the **To** field.
     
-59.  Select the **To** field and select **Enter custom value**, then select the dynamic content icon.
+59. Select the **To** field and select **Enter custom value**, then select the dynamic content icon.
     
-60.  Select the **Requested By Email** value of the **Get mentoring request** step from the Dynamic content pane.
+60. Select the **Requested By Email** value of the **Get mentoring request** step from the Dynamic content pane.
     
     ![Screenshot showing the To field value.](img/to-requested.png)
     
-61.  Review the email content and add/edit if needed. Ensure that the email has a value for the Subject and the Body.
+61. Review the email content and add/edit if needed. Ensure that the email has a value for the Subject and the Body.
     
-62.  Select the **Send an email** step in the **False** branch of the **Check if mentoring request is approved** condition. Add a **Send an email** step if needed.
+62. Select the **Send an email** step in the **False** branch of the **Check if mentoring request is approved** condition. Add a **Send an email** step if needed.
     
-63.  Rename the step to **Send rejected email** and then remove the value from the **To** field.
+63. Rename the step to **Send rejected email** and then remove the value from the **To** field.
     
-64.  Select the **To** field and then select the **Insert data from previous step** icon.
+64. Select the **To** field and then select the **Insert data from previous step** icon.
     
-65.  Select the **Requested By Email** value of the **Get mentoring request** step from the Dynamic content pane.
+65. Select the **Requested By Email** value of the **Get mentoring request** step from the Dynamic content pane.
     
-66.  Review the email content and edit if needed.
+66. Review the email content and edit if needed.
     
-67.  The complete flow should resemble the following image. Select **Save** to save the flow.
+67. The complete flow should resemble the following image. Select **Save** to save the flow.
     
     ![Screenshot showing the completed flow.](img/completed-flow.png)
     
@@ -328,7 +328,7 @@ In this task, you add an action by using Copilot.
     
 9.  Try asking Copilot to make changes and observe what it does. Make sure that you undo the changes whenever Copilot makes changes.
     
-10.  You can add an action manually that sets the mentoring request's approval status to **Canceled**.
+10. You can add an action manually that sets the mentoring request's approval status to **Canceled**.
     
 
 ## Task 6 - Test the flow
