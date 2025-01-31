@@ -59,7 +59,7 @@ This example converts a time zone to the specified time zone and format.
 
 
 ```
-convertTimeZone('2018-01-01T80:00:00.0000000Z', 'UTC', 'Pacific Standard Time', 'D')
+convertTimeZone('2018-01-01T08:00:00.0000000Z', 'UTC', 'Pacific Standard Time', 'D')
 ```
 
 It returns the result: `Monday, January 1, 2018`.
