@@ -17,7 +17,7 @@ Power Automate has a built-in operation called **Convert time zone**.
 
 1.  Sign in to [Power Automate](https://make.powerautomate.com).
     
-2.  Find an existing flow and select **Edit** to add an action.
+2.  Find an existing flow which has date/time data type and select **Edit** to add an action or create a manually triggered flow and add MSN Weather connector.
     
 3.  In the **Search** box, type **convert time zone** and choose the built-in **Convert time zone** operation.
     
@@ -29,8 +29,11 @@ Power Automate has a built-in operation called **Convert time zone**.
     *   **Source time zone**: The time zone that the datetime is currently in.
     *   **Destination time zone**: The time zone you want to convert your date to.
     *   **Format string** _(Optional)_: The string that specifies the desired format of the converted time.
+5.  Add the Outlook connector and send an e-mail to yourself putting converted value into the body.
     
 ## Task 2 - Convert a time zone using an expression
+
+In this task, you will replace Convert Time zone action with the expression.
 
 Power Automate has an expression function `convertTimeZone` that converts a timestamp from the source time zone to the target time zone.
 
