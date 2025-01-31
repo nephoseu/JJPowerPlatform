@@ -17,7 +17,7 @@ Power Automate has a built-in operation called **Convert time zone**.
 
 1.  Sign in to [Power Automate](https://make.powerautomate.com).
     
-2.  Find an existing flow which has date/time data type and select **Edit** to add an action or create a manually triggered flow and add MSN Weather connector.
+2.  Use an existing flow from Lab 2 which has date/time data type and select **Edit**. Use Time received property of the e-mail trigger (dynamic data).
     
 3.  In the **Search** box, type **convert time zone** and choose the built-in **Convert time zone** operation.
     
